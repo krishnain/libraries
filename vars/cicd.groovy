@@ -20,3 +20,8 @@ def runSelenium(path)
 
 }
 
+def approvals(name)
+{
+  input message: 'Waiting for Approval', submitter: "${name}" 
+}
+
